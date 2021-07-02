@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import "nullstyle.scss";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+
+.body{
+    height: 100%;
+    
+}
+.wrapper {
+    background-color: #93e4bb;
+    display: flex;
+    flex-direction: column;
+
+}
+.header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color:#8f9998;
+
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0px 10px;
+    
+
+}
+.header__body {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items:center;
+}
+
+.header__logo {
+
+
+}
+.head__img{
+    max-height: 100px;
+   max-width: 100px;
+}
+.header__burger {
+}
+.header__menu {
+}
+.header__list {
+    display: flex;
+}
+.header__list li{
+  
+}
+.header__link {
+    color: #444;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.header__link1{
+    color: #fff;
+    font-size: 20px;
+    margin: 0px 15px 0px 15px;
+
+}
+.img{
+   max-height: 400px;
+    max-width: 400px;
+    border-radius: 10px;
+border: 2px #ccc solid;
+box-shadow: 0 0 10px rgb(255, 255, 255);
+margin-right: 40px;
+margin-bottom: 20px;
+
+}
+.content__body{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    margin: 0px 280px 0px 280px;
+}
+.content{
+    margin: 80px 0px 0px 0px;
+ 
+
+
+}
+.titile__preview{
+    font-size: 100px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.title__first{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px 0px 10px 0px;
+    
+}
+.titile__text{
+    font-size: 15px;
+
+}
+.content__body{
+    font-family: "Open Sans";
+}
+.footer__body{
+    display: flex;
+    justify-content: space-between;
+    height: 121px;
+    align-items:center;
+}
+.footer__item1{
+    font-size: 18px;
+    font-family: "Open Sans";
+    margin: 15px 0px 0px 0px;
+}
+.phone{
+    margin: 10px 0px 10px 0px;
+}
+.footer__item2{
+    font-size: 18px;
+    font-family: "Open Sans";
+    margin: 15px 0px 0px 0px;
+}
+.mail{
+    margin: 10px 0px 10px 0px;
+}
+ 
+
+.footer__item3{
+    font-size: 18px;
+    font-family: "Open Sans";
+    margin: 15px 0px 6px 0px;
+}
+.footer{
+    background-color: rgb(79, 182, 182);
+    width: auto;
+    height: auto;
+}
